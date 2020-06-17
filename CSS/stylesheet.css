@@ -1,0 +1,306 @@
+* {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+h2 {
+    margin: 30px;
+    color: #f7931e;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+/*general classes*/
+.btn {
+    background: #eb5e28;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    width: 60vw;
+    border-radius: 25px;
+}
+
+/*header section*/
+.header {
+    display: inline-block;
+    width: 100%;
+}
+
+.icons {
+    background: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    z-index: 10;
+    width: 42px;
+    padding-left: 10px;
+}
+
+.social{
+    margin-top: 8px;
+}
+
+.burgerNav {
+    background: black;
+    border: 1px solid white;
+    font-size: 0.5em;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 90px;
+    z-index: 10;
+    width: 42px;
+    padding-left: 10px;
+}
+
+.exit {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    float: right;
+    font-size: 1.2em;
+    width: 12%;
+}
+
+.navbar {
+    background: rgb(54, 54, 54);
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navText {
+    margin-top: 40%;
+    font-weight: 50px;
+}
+
+
+.block {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: rgb(46, 44, 44);
+}
+
+#tagline {
+    color: white;
+}
+
+.logo {
+    width: 92vw;
+    margin-top: 10%;
+}
+
+.name {
+    color: #eb5e28;
+    letter-spacing: 2px;
+}
+
+.hi {
+    font-size: 6em;
+}
+
+
+
+/*About Me Section*/
+.aboutblock {
+    text-align: center;
+    background: rgb(46, 44, 44);
+    color: white;
+    margin-top: 20px;
+   
+    
+}
+
+.myImage {
+    margin-top: 15%;
+    margin-left: 25%;      
+    box-shadow: -20px -20px grey;
+    width: 200px;
+    border: 1.5px solid white;
+}
+
+.aboutContent{
+    text-align: justify;
+    font-size: 14px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.moreAbout {
+    background-color: #eb5e28;
+   
+}
+
+
+/* I am an ADA graduate Section */
+.graduateBlock {
+    text-align: center;
+    background: rgb(46, 44, 44);
+    color: white;
+    margin-top: 20px;
+}
+
+#adaImg {
+    margin: 5%;
+    width: 60%;
+    height: 120px;
+}
+
+.gradContent {
+    text-align: justify;
+    font-size: 14px;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+/* Testimonials */
+.testimonials {
+    background: rgb(46, 44, 44);
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* Get in touch Section */
+.inTouchBlock {
+    text-align: center;
+    background: rgb(46, 44, 44);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.form-control {
+    background: gray;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.inputs {
+    margin-top: 6px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* --------------------------------------------------------------media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // --------------------------------------------------------------Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (orientation: landscape) { 
+}
+
+/* // --------------------------------------------------------------Medium devices (tablets) */
+@media (min-width: 768px) {
+    /*general classes*/
+    .mobile-only {
+        display: none;
+    }
+    .tablet-only {
+        display: block;
+    }
+
+    /*header section*/
+    .block {
+        height: 20vh;
+    }
+}
+
+/* // --------------------------------------------------------------Large devices (ipad pro) */
+@media (min-width: 992px) { 
+   
+}
+
+/* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+/* --------------------------------------------------------------Extra large devices landscape */
+@media (min-width: 1200px) and (orientation: landscape) { 
+    /*general classes*/
+    .tablet-only.mobile-only {
+        display: none;
+    }
+    .desktop-only {
+        display: block;
+    }
+
+    /*header section*/
+    .icons {
+        margin: 5px 5px;
+        padding: 20px;
+    }
+
+    .name {
+        color: #f7931e;
+        text-align: left;
+    }
+
+    .block {
+        margin-top: 10vh;
+        height: 50vh;
+    }
+    
+
+    .navbar {
+        background: blueviolet;
+        display: inline-block;
+        width: 100%;
+        height: 100px;
+    }
+
+    .navText {
+        display: inline;
+    }
+
+    /*About Me Section*/
+    .aboutblock {
+        background: rgb(46, 44, 44);
+        margin-top: 20px;
+        height: 70vh;
+    }
+
+
+    .touchContent {
+        margin: 2px 120px
+    }
+}
+
+/* --------------------------------------------------------------Internet Explorer */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
