@@ -18,27 +18,30 @@
 <body>
 
     <!------------ Navbar ------------>
-    <div class="navbar">
+    <div class="navbar hide-on-mobile mobile-only">
         <div class="exit">
             <i class="fa fa-times"></i>
         </div>
         <div class="navText">
-            <p><a>Home</a></p>
-            <p><a>About Me</a></p>
-            <p><a>Journey</a></p>
-            <p><a>Resume</a></p>
-            <p><a>Get in touch</a></p>
+            <a href="Homepage.html" class="navLinks">Home</a>
+            <a href="" class="navLinks">About Me</a>
+            <a href="" class="navLinks">Journey</a>
+            <a href="" class="navLinks">Resume</a>
+            <a href="" class="navLinks">Get in touch</a>
         </div>
     </div>
+
+
+    <!--------- Homepage --------->
 
     <div class="container">
         <div class="header d-inline-flex">
             <div class="social">
-                <i class="fa fa-github icons"></i>
-                <i class="fa fa-linkedin icons"></i>
-                <i class="fa fa-envelope icons"></i>
-                <i class="fa fa-phone icons"></i>
-                <i class="fa fa-bars burgerNav"></i>
+                <a href="https://github.com/Kea11/Kea_Portfolio_Project"><i class="fa fa-github icons"></i></a>
+                <a href="https://www.linkedin.com/in/keabetswe-mogotsi-0165a0193/"><i class="fa fa-linkedin icons"></i></a>
+                <a href=""><i class="fa fa-envelope icons"></i></a>
+                <a href=""><i class="fa fa-phone icons"></i></a>
+                <i class="fa fa-bars burgerNav mobile-only"></i>
             </div>
         </div>
 
@@ -49,15 +52,19 @@
 
 
         <div class="block">
-            <p class="hi mt-3 text-secondary">{<span style="color: white;">HI</span>}</p>
-            <p style="color: grey; font-size: 20px; ">&lt;p&gt; <span style="color: #f7931e; font-size: 20px;">I am a Front-End Developer with a passion for aesthetics</span> &lt;/p&gt; </p>
+            <p class="hi mt-3 text-secondary">{<span style="color: white;">
+                HI</span>}
+            </p>
+            <p style="color: grey; font-size: 20px; ">&lt;p&gt; <span style="color: #f7931e; font-size: 20px;">
+                I am a Front-End Developer with a passion for aesthetics</span> &lt;/p&gt; 
+            </p>
         </div>
 
 
 
         <!------------ About Me Section ------------>
 
-        <div class="aboutBlock hide-on-mobile desktop-only">
+        <div class="aboutBlock desktop-only">
             <h2>About Me</h2>
             <div class="row">
                 <div class="col-lg-6">
@@ -72,8 +79,8 @@
                     </div>
                 
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row justify-content-center">
+                <div class="col-8">
                     <button class="moreAbout btn mobile-only">More about me</button>
                 </div>
             </div>
@@ -93,13 +100,14 @@
                 </div>
             
                 <div class="gradContent col-lg-4">
-                    <p>The African Developers Academy is a year long learnership, with a focus on teaching front-end development. I was one of the few women to make it through the selection process, being one of only 2.2%. Looking back, it has been an exciting experience, at times it was very overwhelming - and perhaps still is. Learning how to code has been the best thing I have ever done in my life and keeps me wanting to know more. <br><br> The ADA programme has been very intriguing, interesting, challenging and, at times, stressful but it has been all worth it because it taught me how to deal with and handle the pressure that comes with being a developer. All the projects we did, helped me improve my coding skills and prepare me for the outside world of front-end development. I recommend this programme to all African women of colour. Don’t miss out on this great experience of a lifetime!    
+                    <p>
+                        The African Developers Academy is a year long learnership, with a focus on teaching front-end development. I was one of the few women to make it through the selection process, being one of only 2.2%. Looking back, it has been an exciting experience, at times it was very overwhelming - and perhaps still is. Learning how to code has been the best thing I have ever done in my life and keeps me wanting to know more. <br><br> The ADA programme has been very intriguing, interesting, challenging and, at times, stressful but it has been all worth it because it taught me how to deal with and handle the pressure that comes with being a developer. All the projects we did, helped me improve my coding skills and prepare me for the outside world of front-end development. I recommend this programme to all African women of colour. Don’t miss out on this great experience of a lifetime!    
                     </p>
                 </div>
-            </div>
 
-            <a class="btn btn-primary journey bg-secondary m-4" href="#" role="button">My journey at ADA</a>
-            <a class="btn btn-primary m-4 myCV" href="#" role="button">View my CV</a>
+                <button class="btn btn-primary col-lg-3 bg-secondary" role="button">My journey at ADA</button>
+                <button class="btn btn-primary col-lg-3" role="button">View my CV</button>
+            </div>
         </div>
 
 
@@ -109,69 +117,77 @@
         <div class="testimonials">
             <h2>Testimonials</h2>
             <div class="everything">
-                <div class="row row-cols-lg-4 m-3">
-                    <div class="col-5 col-lg-2">
-                        <div class="card" style="width: 6.5rem;">
+                <div class="row row-cols-lg-4 testRow">
+                    <div class="col-5 col-xl-2">
+                        <div class="card" style="width: 110px;">
                             <img src="Assets/ADA logo.png" class="card-img-top" alt="ADA logo">
                             <div class="card-body text-center" style="background: #eb5e28;">
                             <p class="card-text" style="font-size: 13px; color: white;"><b>in</b> <br> CONTACT ADA</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-7 col-lg-2">
-                        <p class="" style="font-size: 13px; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem vitae dui pretium tempus non et nisl. Nulla mattis leo nec feugiat bibendum. <br> <b>-ADA</b>
+                    <div class="col-7 col-xl-3">
+                        <p class="" style="font-size: 13px; color: white;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem vitae dui pretium tempus non et nisl. Nulla mattis leo nec feugiat bibendum. <br> <b>-ADA</b>
                         </p>
                     </div>
 
-                <br>
-                <div class="w-100"></div>
-                <br>
+                
+                <div class="w-100 mobile-only"></div>
+                
 
-                    <div class="col-5 col-lg-2">
-                        <div class="card" style="width: 6.5rem;">
+                    <div class="col-5 col-xl-2">
+                        <div class="card" style="width: 110px;">
                             <img src="Assets/laura.jpg" class="card-img-top" alt="Image of Laura">
                             <div class="card-body text-center" style="background: #eb5e28;">
                             <p class="card-text" style="font-size: 13px; color: white;"><b>in</b> <br> CONTACT LAURA</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-7 col-lg-2">
-                        <p class="" style="font-size: 13px; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem vitae dui pretium tempus non et nisl. Nulla mattis leo nec feugiat bibendum. <br> <b>-Laura Seal</b>
+                    <div class="col-7 col-xl-3">
+                        <p class="" style="font-size: 13px; color: white;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem vitae dui pretium tempus non et nisl. Nulla mattis leo nec feugiat bibendum. <br> <b>-Laura Seal</b>
                         </p>
                     </div>
                 </div>
 
-                <br>
+                <div class="w-100 desktop-only"></div>
 
-                <div class="row m-3">
-                    <div class="col-5">
-                        <div class="card" style="width: 6.5rem;">
+                <div class="row row-cols-lg-4 testRow">
+                    <div class="col-5 col-xl-2">
+                        <div class="card" style="width: 110px;">
                             <img src="Assets/andy.jpg" class="card-img-top" alt="Image of Andrea">
                             <div class="card-body text-center" style="background: #eb5e28;">
-                            <p class="card-text" style="font-size: 13px; color: white;"><b>in</b> <br> CONTACT ANDREA</p>
+                                <p class="card-text" style="font-size: 13px; color: white;">
+                                    <b>in</b> <br> CONTACT ANDREA
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-7">
-                        <p class="" style="font-size: 13px; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem vitae dui pretium tempus non et nisl. Nulla mattis leo nec feugiat bibendum. <br> <b>-Andrea Hayes</b>
+                    <div class="col-7 col-xl-3">
+                        <p class="" style="font-size: 13px; color: white;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem vitae dui pretium tempus non et nisl. Nulla mattis leo nec feugiat bibendum. <br> <b>-Andrea Hayes</b>
                         </p>
                     </div>
+                
                 <br>
-                <div class="w-100"></div>
+                <div class="w-100 mobile-only"></div>
                 <br>
-                    <div class="col-5">
-                        <div class="card" style="width: 6.5rem;">
+                
+                    <div class="col-5 col-xl-2">
+                        <div class="card" style="width: 110px;">
                             <img src="Assets/kate.jpg" class="card-img-top" alt="Image of Kate">
                             <div class="card-body text-center" style="background: #eb5e28;">
-                            <p class="card-text" style="font-size: 13px; color: white;"><b>in</b> <br> CONTACT KATE</p>
+                            <p class="card-text" style="font-size: 13px; color: white;">
+                                <b>in</b> <br> CONTACT KATE
+                            </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-7">
-                        <div class="">
-                            <p class="" style="font-size: 13px; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem vitae dui pretium tempus non et nisl. Nulla mattis leo nec feugiat bibendum. <br> <b>-Kate Marsay</b>
-                            </p>
-                        </div>
+                    <div class="col-7 col-xl-3">
+                        <p class="" style="font-size: 13px; color: white;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem vitae dui pretium tempus non et nisl. Nulla mattis leo nec feugiat bibendum. <br> <b>-Kate Marsay</b>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -184,7 +200,8 @@
         <div class="inTouchBlock">
             <h2>Get in touch</h2>
             <div class="touchContent">
-                <p class="text-justify m-4">Like what you hear? <br><br> Fill out the form below and I will get back to you. Whether you want to find out more about me, or if you’re looking to get your own website up and running - I will be happy to help!
+                <p class="text-justify m-4">
+                    Like what you hear? <br><br> Fill out the form below and I will get back to you. Whether you want to find out more about me, or if you’re looking to get your own website up and running - I will be happy to help!
                 </p>
 
                 <form action="">
@@ -208,13 +225,15 @@
         <!------------ Footer -------------->
         
         <div class="footer">
-            <div class="social">
+            <div class="footSocial">
                 <i class="fa fa-github icons"></i>
                 <i class="fa fa-linkedin icons"></i>
                 <i class="fa fa-envelope icons"></i>
                 <i class="fa fa-phone icons"></i>
             </div>
-            <p>Copyright 2020 , made by <span style="color: #f7931e;">Keabetswe Mogotsi</span> </p>
+            <p>
+                Copyright 2020 , made by <span style="color: #f7931e;">Keabetswe Mogotsi</span> 
+            </p>
         </div>
 
     </div>

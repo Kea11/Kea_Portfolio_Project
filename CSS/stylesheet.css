@@ -22,6 +22,14 @@ p {
 
 
 /*general classes*/
+.desktop-only.hide-on-mobile {
+    display: none;
+}
+
+.mobile-only {
+    display: block;
+}
+
 .btn {
     background: #eb5e28;
     border: none;
@@ -89,8 +97,15 @@ p {
 }
 
 .navText {
-    margin-top: 40%;
+    margin-top: 30%;
     font-weight: 50px;
+    font-size: 1.2em;
+}
+
+.navLinks {
+    display: block;
+    margin-top: 10%;
+    color: white;
 }
 
 
@@ -168,9 +183,12 @@ p {
 
 .gradContent {
     text-align: justify;
-    font-size: 14px;
     margin: 15px;
     padding: 15px;
+}
+
+.btn-primary {
+    margin-left: 70px;
 }
 
 
@@ -179,6 +197,10 @@ p {
     background: rgb(46, 44, 44);
     color: white;
     margin-top: 20px;
+}
+
+.testRow {
+    margin: 10px 10px;
 }
 
 
@@ -253,22 +275,43 @@ input::placeholder {
 /* --------------------------------------------------------------Extra large devices landscape */
 @media (min-width: 1200px) and (orientation: landscape) { 
     /*general classes*/
-    .tablet-only.mobile-only {
+    .mobile-only.tablet-only {
         display: none;
     }
-    .desktop-only {
+    .desktop-only.hide-on-mobile {
         display: block;
     }
 
+    .btn {
+        background: #eb5e28;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        width: 15vw;
+        border-radius: 25px;
+    }
+
+
+
     /*header section*/
-    .icons {
-        margin: 5px 5px;
-        padding: 20px;
+    .social {
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .logo {
+        z-index: 10;
+        margin-bottom: 100%;
     }
 
     .name {
         color: #f7931e;
         text-align: left;
+        margin-right: 20%;
     }
 
     .block {
@@ -288,6 +331,8 @@ input::placeholder {
         display: inline;
     }
 
+
+    
     /*About Me Section*/
     .aboutblock {
         background: rgb(46, 44, 44);
@@ -296,8 +341,26 @@ input::placeholder {
     }
 
 
+
+    /* I am an ADA graduate Section */
+    
+
+
+
+    /* Testimonials */
+    .testimonials {
+        height: 100vh;
+    }
+
+    .testRow {
+        margin: 50px 80px;
+    }
+
+
+
+    /* Get in touch Section */
     .touchContent {
-        margin: 2px 120px
+        margin: 2px 200px;
     }
 }
 
