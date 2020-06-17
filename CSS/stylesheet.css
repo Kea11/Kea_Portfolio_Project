@@ -115,7 +115,8 @@ p {
 
 /* hi section */
 .block{
-    padding: 20% 10%;
+    padding: 20% 0%;
+    margin: 0 1px;
 }
 
 #tagline {
@@ -141,7 +142,7 @@ p {
 /*About Me Section*/
 .aboutblock {
     text-align: center;
-    background: rgb(46, 44, 44);
+    background: #1a1a1a;
     color: white;
     margin-top: 20px;
    
@@ -172,15 +173,14 @@ p {
 /* I am an ADA graduate Section */
 .graduateBlock {
     text-align: center;
-    background: rgb(46, 44, 44);
+    background: #1a1a1a;
     color: white;
     margin-top: 20px;
 }
 
 #adaImg {
     margin: 5%;
-    width: 60%;
-    height: 120px;
+    width: 55%;
 }
 
 .gradContent {
@@ -196,26 +196,22 @@ p {
 
 /* Testimonials */
 .testimonials {
-    background: rgb(46, 44, 44);
+    background: #1a1a1a;
     color: white;
     margin-top: 20px;
 }
 
-.testRow {
-    margin: 10px 10px;
-}
+
 
 
 /* Get in touch Section */
 .inTouchBlock {
     text-align: center;
-    background: rgb(46, 44, 44);
+    background: #1a1a1a;
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
 
 .form-control {
     background: gray;
@@ -231,6 +227,9 @@ input::placeholder {
     margin-left: 25px;
 }
 
+
+
+/* Footer */
 .footer {
     text-align: center;
     color: white;
@@ -306,7 +305,7 @@ input::placeholder {
     .block{
         padding: 5% 38%;
     }
-}
+
     .all-icons{
         text-align: right;
     }
@@ -347,12 +346,13 @@ input::placeholder {
 
 
     /* Testimonials */
-    .testimonials {
-        height: 100vh;
+    .everything {
+        /* margin: 50px;
+        padding: 40px; */
     }
 
     .testRow {
-        margin: 50px 80px;
+        margin: 50px 100px;
     }
 
 
