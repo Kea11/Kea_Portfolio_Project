@@ -14,7 +14,11 @@ h2 {
     margin: 30px;
     color: #f7931e;
     text-align: center;
-    overflow: hidden;
+}
+
+h4 {
+    color: #f7931e;
+    text-align: center;
 }
 
 p {
@@ -113,10 +117,11 @@ p {
 }
 
 
-/* hi section */
+/* HI section */
 .block{
     padding: 20% 0%;
     margin: 0 1px;
+    background: rgb(46, 44, 44);
 }
 
 #tagline {
@@ -133,8 +138,14 @@ p {
     letter-spacing: 2px;
 }
 
-.hi {
-    font-size: 6em;
+.arrow {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 30px;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 10%;
+    font-weight: 300;
 }
 
 
@@ -142,7 +153,7 @@ p {
 /*About Me Section*/
 .aboutblock {
     text-align: center;
-    background: #1a1a1a;
+    background: rgb(46, 44, 44);
     color: white;
     margin-top: 20px;
    
@@ -173,7 +184,7 @@ p {
 /* I am an ADA graduate Section */
 .graduateBlock {
     text-align: center;
-    background: #1a1a1a;
+    background: rgb(46, 44, 44);
     color: white;
     margin-top: 20px;
 }
@@ -196,7 +207,7 @@ p {
 
 /* Testimonials */
 .testimonials {
-    background: #1a1a1a;
+    background: rgb(46, 44, 44);
     color: white;
     margin-top: 20px;
 }
@@ -207,7 +218,7 @@ p {
 /* Get in touch Section */
 .inTouchBlock {
     text-align: center;
-    background: #1a1a1a;
+    background: rgb(46, 44, 44);
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -236,6 +247,27 @@ input::placeholder {
     margin-top: 70px;
     margin-bottom: 50px;
 }
+
+
+
+
+
+/* ==============================================================================================================================
+================================================================================================================================= */
+
+/* RESUME PAGE */
+.cvDivs {
+    margin: 20px 0px;
+}
+
+.fa-star {
+    font-size: 20px;
+    color: #f7931e;
+}
+
+
+
+
 
 
 
@@ -309,6 +341,7 @@ input::placeholder {
     .all-icons{
         text-align: right;
     }
+
     .logo {
         z-index: 10;
         margin-bottom: 100%;
@@ -316,13 +349,6 @@ input::placeholder {
 
     .name {
         color: #f7931e;
-    }
-
-    .navbar {
-        background: blueviolet;
-        display: inline-block;
-        width: 100%;
-        height: 100px;
     }
 
     .navText {
@@ -341,19 +367,21 @@ input::placeholder {
 
 
     /* I am an ADA graduate Section */
-    
+    /* .gradBut {
+        margin-left: 100px;
+    } */
 
 
 
     /* Testimonials */
     .everything {
-        /* margin: 50px;
-        padding: 40px; */
+        margin: 50px;
+        padding: 40px;
     }
 
-    .testRow {
-        margin: 50px 100px;
-    }
+    /* .testRow {
+        margin: 50px 200px;
+    } */
 
 
 
