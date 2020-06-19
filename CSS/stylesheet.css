@@ -35,6 +35,13 @@ p {
     display: block;
 }
 
+.block {
+    text-align: center;
+    background: rgb(46, 44, 44);
+    color: white;
+    margin-top: 20px;
+}
+
 .btn {
     background: #eb5e28;
     border: none;
@@ -138,15 +145,6 @@ p {
     letter-spacing: 2px;
 }
 
-.arrow {
-    border: 1px solid grey;
-    border-radius: 20px;
-    width: 30px;
-    text-align: center;
-    margin-left: 50%;
-    margin-top: 10%;
-    font-weight: 300;
-}
 
 
 
@@ -155,9 +153,7 @@ p {
     text-align: center;
     background: rgb(46, 44, 44);
     color: white;
-    margin-top: 20px;
-   
-    
+    margin-top: 20px;  
 }
 
 .myImage {
@@ -177,7 +173,10 @@ p {
 
 .moreAbout {
     background-color: #eb5e28;
-   
+}
+
+.myPic {
+    width: 200px;
 }
 
 
@@ -294,9 +293,33 @@ input::placeholder {
         padding: 10px 50px;
     }
 
+    .btn {
+        background: #eb5e28;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        width: 25vw;
+        border-radius: 25px;
+    }
+
     /*header section*/
     .block{
         padding: 15% 20%;
+    }
+
+
+    /* About Me section */
+    .myImage {
+        width: 250px;
+        margin-left: 30%;
+    }
+
+    .myPic {
+        width: 300px;
     }
 }
 
@@ -304,6 +327,19 @@ input::placeholder {
 @media (min-width: 992px) { 
     .tablet-down{
         display: none!important;
+    }
+
+    .btn {
+        background: #eb5e28;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        width: 15vw;
+        border-radius: 25px;
     }
     
 }
@@ -355,21 +391,34 @@ input::placeholder {
         display: inline;
     }
 
+    .deskNav {
+        margin-left: 30%;
+    }
+
+
+    /* Hi section */
+    .arrow {
+        border: 1px solid grey;
+        border-radius: 20px;
+        width: 35px;
+        text-align: center;
+        margin-left: 50%;
+        margin-top: 10%;
+        font-weight: 200;
+    }
+
 
     
     /*About Me Section*/
     .aboutblock {
         background: rgb(46, 44, 44);
         margin-top: 20px;
-        height: 70vh;
     }
 
 
 
     /* I am an ADA graduate Section */
-    /* .gradBut {
-        margin-left: 100px;
-    } */
+    
 
 
 
