@@ -116,7 +116,6 @@ p {
     text-align: center;
     color: whitesmoke;
     height: 100vh;
-    overflow: hidden;
 }
 
 .navText {
@@ -149,7 +148,7 @@ p {
 }
 
 .name {
-    color: #eb5e28;
+    color: #ffc300;
     letter-spacing: 2px;
     margin-top: 40px;
 }
@@ -163,6 +162,10 @@ p {
     background: rgb(46, 44, 44);
     color: white;
     margin-top: 20px;  
+}
+
+.aboutGreyBlock {
+    padding: 20px;
 }
 
 .myImage {
@@ -457,6 +460,22 @@ p {
     .aboutblock {
         background: rgb(46, 44, 44);
         margin-top: 20px;
+    }
+
+    .devSec {
+        background: #eb5e28;
+        padding: 20px;
+        margin: 30px 5px;
+    }
+
+    .aboutGreyBlock {
+        padding: 80px;
+    }
+
+    
+
+    .myPic {
+        width: 250px;
     }
 
 

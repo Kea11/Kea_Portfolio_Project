@@ -26,7 +26,7 @@
 <body>
 
     <!------------ Navbar ------------>
-    <div class="navbar hide-on-mobile mobile-only">
+    <div class="navbar hide-on-mobile">
         <div class="exit">
             <i class="fa fa-times"></i>
         </div>
@@ -94,7 +94,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="myImage">
-                        <img src="assets/rsz_kea.jpg" alt="picture of Keabetswe" class="myPic">
+                        <img src="Assets/rsz_kea.jpg" alt="picture of Keabetswe" class="myPic">
                     </div>
                 </div>
                     
@@ -120,7 +120,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="adaLogo">
-                        <img src="assets/ada.png" alt="ADA logo" id="adaImg">
+                        <img src="Assets/ada.png" alt="ADA logo" id="adaImg">
                     </div>
                 </div>
             
@@ -130,9 +130,9 @@
                     </p>
                 </div>
 
-                <div class="col-12 col-md-12">
+                <div class="col-12 col-md-12 offset-lg-2">
                     <button class="btn btn-primary bg-secondary" role="button">My journey at ADA</button>
-                    <a href="CVpage.html"><button class="btn btn-primary myCV" role="button">View my CV</button></a>
+                    <a href="CVpage.html"><button class="btn btn-primary" role="button">View my CV</button></a>
                 </div>
             </div>
         </div>
@@ -231,22 +231,27 @@
             <div class="row">
                 <div class="touchContent">
                     <p class="text-justify m-4">
-                        Like what you hear? <br><br> Fill out the form below and I will get back to you. Whether you want to find out more about me, or if you’re looking to get your own website up and running - I will be happy to help!
+                        Like what you hear?
+                    </p>
+                    <p class="text-left m-4">
+                        Fill out the form below and I will get back to you. Whether you want to find out more about me, or if you’re looking to get your own website up and running - I will be happy to help!
                     </p>
     
-                    <form action="">
+                    <form action="https://formspree.io/xleplqzz" method="POST">
                         <div class="inputs">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+                            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
                         </div>
                         <div class="inputs">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+                            <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
                         </div>
                         <div class="inputs">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
+                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
                         </div>
+
+                        <button type="submit" class="btn btn-primary m-4" href="#" role="button">send</button>
                     </form>
     
-                    <a class="btn btn-primary m-4" href="#" role="button">send</a>
+                    
                 </div>
             </div>
         </div>
@@ -273,7 +278,7 @@
 
 
 
-    <script src="js/myScript.js"></script>
+    <script src="JS/myScript.js"></script>
 
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

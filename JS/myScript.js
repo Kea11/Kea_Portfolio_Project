@@ -1,7 +1,7 @@
 const bar = document.querySelector('.burgerNav');
 const nav = document.querySelector('.navbar');
 const exit = document.querySelector('.exit');
-const home = document.querySelector('.container');
+const home = document.querySelector('.container-fluid');
 
 nav.style.display = 'none';
 
