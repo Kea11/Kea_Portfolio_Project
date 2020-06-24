@@ -30,7 +30,6 @@ h5 {
 p {
     font-size: 14px;
     color: white;
-    /* margin: 5px; */
 }
 
 
@@ -208,7 +207,6 @@ p {
 .gradContent {
     text-align: justify;
     margin: 15px;
-    padding: 15px;
 }
 
 .btn-primary {
@@ -233,6 +231,7 @@ p {
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .form-control {
@@ -360,7 +359,7 @@ p {
     }
 
     .myPic {
-        width: 300px;
+        width: 250px;
     }
 
 
@@ -384,8 +383,26 @@ p {
         font-size: 16px;
         font-weight: bolder;
         margin-bottom: 50px;
-        width: 15vw;
+        width: 20vw;
         border-radius: 25px;
+    }
+
+
+    .myImage {
+        width: 250px;
+    }
+
+    .myPic {
+        width: 250px;
+    }
+
+
+    .testimonials {
+        padding: 20px;
+    }
+
+    .inTouchBlock {
+        padding: 20px;
     }
     
 }
@@ -411,6 +428,7 @@ p {
         margin-bottom: 50px;
         width: 15vw;
         border-radius: 25px;
+        margin-left: 2px;
     }
 
 
@@ -452,6 +470,7 @@ p {
         margin-left: 50%;
         margin-top: 10%;
         font-weight: 200;
+        height: 60px;
     }
 
 
@@ -472,8 +491,10 @@ p {
         padding: 80px;
     }
 
+    .myImage {
+        width: 250px;
+    }
     
-
     .myPic {
         width: 250px;
     }
@@ -490,10 +511,6 @@ p {
         margin: 50px;
         padding: 40px;
     }
-
-    /* .testRow {
-        margin: 50px 200px;
-    } */
 
 
 
@@ -521,6 +538,13 @@ p {
 
     .fa-star {
         color: white;
+    }
+
+    .fa-award {
+        font-size: 5em;
+        background: #f7931e;
+        border-radius: 50%;
+        padding: 10px;
     }
 }
 
