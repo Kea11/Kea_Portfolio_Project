@@ -374,6 +374,10 @@ p {
         display: none!important;
     }
 
+    .desktop-only {
+        display: block;
+    }
+
     .btn {
         background: #eb5e28;
         border: none;
@@ -429,6 +433,10 @@ p {
         width: 15vw;
         border-radius: 25px;
         margin-left: 2px;
+    }
+
+    .deskNav {
+        display: block;
     }
 
 
@@ -502,7 +510,9 @@ p {
 
 
     /* I am an ADA graduate Section */
-    
+    .adaLogo {
+        width: 80%;
+    }
 
 
 
