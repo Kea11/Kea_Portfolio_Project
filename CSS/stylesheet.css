@@ -167,14 +167,6 @@ p {
     padding: 20px;
 }
 
-.myImage {
-    margin-top: 15%;
-    margin-left: 25%;      
-    box-shadow: -20px -20px grey;
-    width: 200px;
-    border: 1.5px solid white;
-}
-
 .aboutContent{
     text-align: justify;
     font-size: 14px;
@@ -188,6 +180,9 @@ p {
 
 .myPic {
     width: 200px;
+    margin-top: 20px;
+    box-shadow: -20px -20px grey;
+    border: 1.5px solid white;
 }
 
 
@@ -351,7 +346,6 @@ p {
     /* About Me section */
     .myImage {
         width: 250px;
-        margin-left: 30%;
     }
 
     .myPic {
@@ -387,10 +381,6 @@ p {
         border-radius: 25px;
     }
 
-
-    .myImage {
-        width: 250px;
-    }
 
     .myPic {
         width: 250px;
@@ -460,9 +450,9 @@ p {
         display: inline;
     }
 
-    .deskNav {
+    /* .deskNav {
         margin-left: 30%;
-    }
+    } */
 
 
     /* Hi section */
@@ -493,10 +483,6 @@ p {
 
     .aboutGreyBlock {
         padding: 80px;
-    }
-
-    .myImage {
-        width: 250px;
     }
     
     .myPic {
