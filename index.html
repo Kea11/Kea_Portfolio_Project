@@ -19,6 +19,12 @@
     <!-- fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- animate.css -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+    <!-- animate on scroll (aos) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Profile Project</title>
 
 </head>
@@ -52,7 +58,7 @@
                 <i class="fa fa-bars burgerNav tablet-down"></i>
             </div>
     
-            <div class="col-12 col-lg-4 offset-lg-4 order-lg-first text-center">
+            <div class="col-12 col-lg-4 offset-lg-4 order-lg-first text-center animate__animated animate__fadeInRightBig animate__delay-2s">
                 <h1 class="name">Keabetswe</h1>
             </div>
     
@@ -112,16 +118,16 @@
 
         <!------------ I am an ADA graduate Section ------------>
 
-        <div class="graduateBlock">
+        <div class="graduateBlock" data-aos="fade-up">
             <div class="row">
                 <h2 class="col-sm-12 offset-lg-2 offset-xl-2">I am an ADA graduate</h2>
                 <div class="col-lg-6">
-                    <div class="adaLogo">
+                    <div class="adaLogo" data-aos="fade-right" data-aos-offset="300">
                         <img src="Assets/ada.png" alt="ADA logo" id="adaImg">
                     </div>
                 </div>
             
-                <div class="gradContent col-lg-5 col-xl-4">
+                <div class="gradContent col-lg-5 col-xl-4" data-aos="fade-left" data-aos-offset="300">
                     <p>
                         The African Developers Academy is a year long learnership, with a focus on teaching front-end development. I was one of the few women to make it through the selection process, being one of only 2.2%. Looking back, it has been an exciting experience, at times it was very overwhelming - and perhaps still is. Learning how to code has been the best thing I have ever done in my life and keeps me wanting to know more. <br><br> The ADA programme has been very intriguing, interesting, challenging and, at times, stressful but it has been all worth it because it taught me how to deal with and handle the pressure that comes with being a developer. All the projects we did, helped me improve my coding skills and prepare me for the outside world of front-end development. I recommend this programme to all African women of colour. Don’t miss out on this great experience of a lifetime!    
                     </p>
@@ -280,6 +286,12 @@
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+   <!-- aos -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
