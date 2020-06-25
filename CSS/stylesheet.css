@@ -33,6 +33,31 @@ p {
 }
 
 
+.line-1{
+    position: relative;
+    width: 6em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;   
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 1s steps(15) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 6em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
 /*general classes*/
 .desktop-only.hide-on-mobile {
     display: none;
