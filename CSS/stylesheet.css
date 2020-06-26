@@ -86,9 +86,7 @@ p {
     width: 60vw;
     border-radius: 25px;
 }
-.dark-grey{
-    background: #1a1a1a;
-}
+
 
 /*header section*/
 .header {
@@ -104,7 +102,6 @@ p {
     padding: 8px;
     z-index: 10;
     width: 42px;
-    padding-left: 10px;
 }
 
 .social{
@@ -114,7 +111,6 @@ p {
 .burgerNav {
     background: black;
     border: 1px solid white;
-    font-size: 0.5em;
     color: white;
     border-radius: 50%;
     padding: 8px;
@@ -331,10 +327,8 @@ p {
 /* // --------------------------------------------------------------Medium devices (tablets) */
 @media (min-width: 768px) {
     /*general classes*/
-    .mobile-only {
-        display: none;
-    }
-    .tablet-only {
+    
+    .tablet-only.mobile-only {
         display: block;
     }
     .container-fluid{
@@ -355,6 +349,16 @@ p {
     }
 
     /*header section*/
+    .exit {
+        border: 1px solid white;
+        padding: 8px;
+        border-radius: 50%;
+        margin: 5px;
+        float: right;
+        font-size: 1.5em;
+        width: 55px;
+    }
+
     .block{
         padding: 15% 20%;
     }
@@ -373,6 +377,15 @@ p {
     .skills {
         text-align: center;
     }
+
+    .aboutGreyBlock {
+        padding: 80px;
+    }
+
+    .grey{
+        padding: 60px;
+    }
+
 }
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
@@ -382,7 +395,7 @@ p {
     }
 
     .desktop-only {
-        display: block;
+        display: block!important;
     }
 
     .btn {
@@ -398,6 +411,17 @@ p {
         border-radius: 25px;
     }
 
+    .arrow {
+        border: 1px solid grey;
+        border-radius: 20px;
+        width: 35px;
+        text-align: center;
+        margin-left: 50%;
+        margin-top: 10%;
+        font-weight: 200;
+        height: 60px;
+    }
+
 
     .myPic {
         width: 250px;
@@ -411,7 +435,34 @@ p {
     .inTouchBlock {
         padding: 20px;
     }
+
+    .aboutGreyBlock {
+        padding: 70px;
+    }
+
+    .fa-laptop-code {
+        background: white;
+        margin-left: 60%;
+    }
     
+    .juniorDev {
+        margin-right: 30%;
+        font-weight: bold;
+        color: black;
+    }
+
+    .devSec {
+        background: #eb5e28;
+        padding: 20px;
+    }
+
+    .aboutGreyBlock {
+        padding: 80px;
+    }
+
+    .grey{
+        padding: 60px;
+    }
 }
 
 /* --------------------------------------------------------------Extra large devices landscape */
@@ -467,9 +518,6 @@ p {
         display: inline;
     }
 
-    /* .deskNav {
-        margin-left: 30%;
-    } */
 
 
     /* Hi section */
@@ -495,7 +543,16 @@ p {
     .devSec {
         background: #eb5e28;
         padding: 20px;
-        margin: 30px 5px;
+        /* margin: 30px 5px; */
+    }
+
+    .fa-laptop-code {
+        background: white;
+    }
+
+    .juniorDev {
+        margin-right: 50%;
+        font-weight: bold;
     }
 
     .aboutGreyBlock {
@@ -549,19 +606,6 @@ p {
         color: white;
     }
 
-    .fa-medal {
-        font-size: 5em;
-        background: #f7931e;
-        border-radius: 50%;
-        padding: 10px;
-    }
-
-    .fa-lapto {
-        font-size: 5em;
-        background: #f7931e;
-        border-radius: 50%;
-        padding: 10px;
-    }
 }
 
 /* --------------------------------------------------------------Internet Explorer */
