@@ -291,9 +291,10 @@ p {
     margin: 20px 0px;
 }
 
-.fa-star {
+.fa-star, .fa-star-half-alt {
     font-size: 20px;
-    color: #f7931e;
+    color: white;
+    overflow: hidden;
 }
 
 
@@ -382,8 +383,8 @@ p {
         padding: 80px;
     }
 
-    .grey{
-        padding: 60px;
+    .greyBlocks{
+        padding: 80px;
     }
 
 }
@@ -460,8 +461,14 @@ p {
         padding: 80px;
     }
 
-    .grey{
-        padding: 60px;
+    .greyBlocks{
+        padding: 100px;
+    }
+
+    .skills {
+        color: white;
+        background: #eb5e28;
+        padding-bottom: 20px;
     }
 }
 
@@ -602,8 +609,9 @@ p {
         color: white;
     }
 
-    .fa-star {
+    .fa-star, .fa-star-half-alt {
         color: white;
+        overflow: hidden;
     }
 
 }
