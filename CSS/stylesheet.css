@@ -607,10 +607,15 @@ p {
     .skills {
         color: white;
         background: #eb5e28;
+        text-align: left;
     }
 
     .skillsHead {
         color: white;
+    }
+
+    .diffSkil {
+        margin-left: 30%;
     }
 
     .fa-star, .fa-star-half-alt {
